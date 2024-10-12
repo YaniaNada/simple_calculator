@@ -1,6 +1,5 @@
 def q_or_c(x):
-    x = x.upper()
-    if x == 'Q':
+    if x == ('Q' or 'q'):
         return 'operation cancelled.'
-    elif x == 'C':
+    elif x == ('C' or 'c'):
         return 'New operation:'
