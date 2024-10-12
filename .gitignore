@@ -1,0 +1,12 @@
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore logs
+*.log
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore system files
+.DS_Store
+desktop.ini
